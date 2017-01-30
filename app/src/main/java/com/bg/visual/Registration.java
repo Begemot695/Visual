@@ -48,6 +48,7 @@ public class Registration extends AppCompatActivity {
                 Intent intent = new Intent(this,Welcom.class);
                 intent.putExtra("Name",NameText);
                 intent.putExtra("Mail",MailText);
+                intent.putExtra("active","registration");
                 startActivity(intent);
                 }
     }
