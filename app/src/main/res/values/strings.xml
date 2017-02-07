@@ -5,10 +5,9 @@
     <string name="userPassword">Пароль :</string>
     <string name="userReg"> Регистрация </string>
     <string name="logIn"> Вход </string>
+    <string name="logOut"> Отмена </string>
     <string name="welcome"> Welcome </string>
     <string name="autoriz"> Авторизация </string>
     <string name="PasswordConfirm"> Подтверждение пароля : </string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">hello_world</string>
 </resources>
