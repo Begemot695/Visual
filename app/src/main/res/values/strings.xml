@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Visual</string>
+    <string name="userName">Имя :</string>
+    <string name="userEmail">E-mail :</string>
+    <string name="userPassword">Пароль :</string>
+    <string name="userReg"> Регистрация </string>
+    <string name="logIn"> Вход </string>
+    <string name="logOut"> Отмена </string>
+    <string name="welcome"> Welcome </string>
+    <string name="autoriz"> Авторизация </string>
+    <string name="PasswordConfirm"> Подтверждение пароля : </string>
+    <string name="hello_world">hello_world</string>
 </resources>

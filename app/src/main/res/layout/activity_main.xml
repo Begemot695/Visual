@@ -8,10 +8,45 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.bg.visual.MainActivity">
+    android:background="#ffb402"
+    tools:context="com.tkachuksm.visual.MainActivity">
 
     <TextView
+        android:text="@string/autoriz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textStyle="normal|bold|italic"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="@string/userReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/btnUserReg"
+        android:onClick="userLogIn"
+        android:background="#2fe40f"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="@string/logIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btnUserLogIn"
+        android:background="#2fe40f"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-medium"
+        android:layout_below="@+id/btnUserReg"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp" />
 </RelativeLayout>
